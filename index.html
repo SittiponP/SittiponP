@@ -5,27 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ประวัติส่วนตัว</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>ประวัติส่วนตัว</h1><br>
-        <p>นาย สิทธิพล พระเดชะ อายุ 24 <img src="/images/1600506023590.jpg" alt=""></p><br>
-        <p>สัตว์ที่ชอบ เเมว <img
-                src="https://ichef.bbci.co.uk/news/800/cpsprodpb/1124F/production/_119932207_indifferentcatgettyimages.png.webp"
-                alt=""></p><br>
-        <p>_____________________________________________________________________________________________________________________
-        </p>
-        <h3>ประวัติการศึกษา</h3>
-        <p>
-            จบมัธยมต้นจาก โรงเรียนวัดนวลนรดิศ<br><br>
-            จบมัธยมปลายจาก โรงเรียนวัดนวลนรดิศ<br><br>
-            ตอนนี้กำลังศึกษา ปริญญาตรีที่มหาวิทยาลัยรามคำเเหง
-        </p><br>
+    <div class="header">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
 
-        <a href="contact.html">ไปยังหน้า contact.html</a>
+        <div class="content">
+            <h4>สวัสดีครับ</h4>
+            <h1>สิทธิพล <span>พระเดชะ</span></h1>
+        </div>
     </div>
+
+    <section class="about">
+        <div class="main" id="about">
+            <img src="./images/img1.jpg">
+            <div class="about-text">
+                <h2>เกี่ยวกับตัวเอง</h2>
+                <h5>นักศึกษา คณะวิทยาศาสตร์ <span>สาขาเทคโนโลยีสารสนเทศ</span></h5>
+                <p>ตอนนี้ผมเป็นนักศึกษา สาขาเทคโนโลยีสารสนเทศ อยู่ที่มหาวิทยาลัยรามคำเเหง
+                    อายุ 24 ปี
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="education">
+        <div class="title">
+            <h2>การศึกษา</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <h5>ประถมศึกษา</h5>
+                <div class="pra">
+                    <p>จบชั้นประถมจากโรงเรียนวัดนิมมานรดี</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">เรียนรู้เพิ่มเติม</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h5>ชั้นมัธยมศึกษา</h5>
+                <div class="pra">
+                    <p>จบชั้นมัธยมศึกษาตอนต้นเเละปลายจากโรงเรียนวัดนวลนรดิศ</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">เรียนรู้เพิ่มเติม</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h5>ปริญญาตรี</h5>
+                <div class="pra">
+                    <p>ตอนนี้กำลังศึึกษาอยู่ที่มหาวิทยาลัยรามคำเเหง</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">เรียนรู้เพิ่มเติม</a>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="contact-me">
+        <p>Contact Me</p>
+        <a class="button-two" href="contact.html">contact me</a>
+    </div>
+
+    <footer>
+        <p>Socail Media</p>
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
